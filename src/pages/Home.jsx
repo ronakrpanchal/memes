@@ -1,12 +1,8 @@
-import Memes from "../components/Memes"
-import Footer from "../components/Footer"
-import Header2 from "../components/Header2"
+import Common from "../components/Common"
 const Home = () =>{
     return (
         <div>
-            <Header2 />
-            <Memes />
-            <Footer />
+            <Common />
         </div>
     )
 }
