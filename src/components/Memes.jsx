@@ -29,7 +29,7 @@ const Memes = () => {
     {isLoading?(<Loading />):(
       <Grid container className="cards" margin={3}>
         {memes.map((meme) => (
-          <Card>
+          <Card className="cards">
             <Meme data={meme} />
           </Card>
         ))}

@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "./Header";
+import Header2 from "./Header2";
 import Memes from "./Memes";
 import Footer from "./Footer";
 const Common = () => {
   return (
     <div>
-      <Header />
+      <Header2 />
       <Memes />
       <Footer />
     </div>

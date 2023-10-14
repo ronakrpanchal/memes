@@ -85,9 +85,9 @@ export default function Header2(props) {
     <React.Fragment>
       <CssBaseline />
       <HideOnScroll {...props}>
-      <AppBar className='header' position='sticky'>
+      <AppBar color='secondary' className='header' position='sticky'>
         <Toolbar>
-          <Typography variant="h6" component="div">
+          <Typography color={'white'} variant="h6" component="div">
           MEMEIT
           </Typography>
         </Toolbar>
